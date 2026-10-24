@@ -1,0 +1,9 @@
+{
+  "name": "vitalrepo-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix Project/frontend run dev",
+    "dev:frontend": "npm --prefix Project/frontend run dev",
+    "dev:backend": "powershell -Command \"cd Project; python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000\""
+  }
+}
